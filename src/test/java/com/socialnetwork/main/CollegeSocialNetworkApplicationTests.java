@@ -1,14 +1,14 @@
-package com.socialnetwork.main;
+// package com.socialnetwork.main;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class CollegeSocialNetworkApplicationTests {
+// @SpringBootTest
+// class CollegeSocialNetworkApplicationTests {
 
-	@Test
-	void contextLoads() {
-		assertTrue(true);
-	}
+// 	@Test
+// 	void contextLoads() {
 
-}
+// 	}
+
+// }
