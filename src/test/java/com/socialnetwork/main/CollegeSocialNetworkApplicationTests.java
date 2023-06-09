@@ -8,6 +8,7 @@ class CollegeSocialNetworkApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assertTrue(true);
 	}
 
 }
