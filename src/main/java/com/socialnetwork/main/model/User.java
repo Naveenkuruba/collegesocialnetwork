@@ -29,7 +29,7 @@ public class User implements Serializable{
 	private String password;
 	
 	public User() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public User(int id, String userName, String emailId, String userrole, String password) {
