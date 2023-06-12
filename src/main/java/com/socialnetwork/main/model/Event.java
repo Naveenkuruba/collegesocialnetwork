@@ -1,16 +1,12 @@
 package com.socialnetwork.main.model;
 import java.time.LocalDate;
 
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
-import lombok.Getter;
-import lombok.Setter;
-@Setter
-@Getter
 @Entity
 public class Event {
     
@@ -40,37 +36,37 @@ public class Event {
         this.period = period;
     }
 
-//    public Long getId() {
-//        return id;
-//    }
-//
-//    public void setId(Long id) {
-//        this.id = id;
-//    }
-//
-//    public String getEvent() {
-//        return event;
-//    }
-//
-//    public void setEvent(String event) {
-//        this.event = event;
-//    }
-//
-//    public LocalDate getDateOfEvent() {
-//        return dateOfEvent;
-//    }
-//
-//    public void setDateOfEvent(LocalDate dateOfEvent) {
-//        this.dateOfEvent = dateOfEvent;
-//    }
-//
-//    public int getPeriod() {
-//        return period;
-//    }
-//
-//    public void setPeriod(int period) {
-//        this.period = period;
-//    }
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getEvent() {
+        return event;
+    }
+
+    public void setEvent(String event) {
+        this.event = event;
+    }
+
+    public LocalDate getDateOfEvent() {
+        return dateOfEvent;
+    }
+
+    public void setDateOfEvent(LocalDate dateOfEvent) {
+        this.dateOfEvent = dateOfEvent;
+    }
+
+    public int getPeriod() {
+        return period;
+    }
+
+    public void setPeriod(int period) {
+        this.period = period;
+    }
     
 }
 

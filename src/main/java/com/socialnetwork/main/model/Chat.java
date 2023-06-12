@@ -2,6 +2,7 @@ package com.socialnetwork.main.model;
 
 import java.time.LocalDateTime;
 
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -12,21 +13,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
-@Setter
-@Getter
-@ToString
 @Entity
 @Table(name = "chats")
 @Data
-//@NoArgsConstructor
-//@AllArgsConstructor
 @Builder
 public class Chat {
 
@@ -66,50 +57,50 @@ public class Chat {
 
 
 
-//	public int getId() {
-//		return id;
-//	}
-//
-//	public void setId(int id) {
-//		this.id = id;
-//	}
-//
-//	public User getSender() {
-//		return sender;
-//	}
-//
-//	public void setSender(User sender) {
-//		this.sender = sender;
-//	}
-//
-//	public User getReceiver() {
-//		return receiver;
-//	}
-//
-//	public void setReceiver(User receiver) {
-//		this.receiver = receiver;
-//	}
-//
-//	public String getMessage() {
-//		return message;
-//	}
-//
-//	public void setMessage(String message) {
-//		this.message = message;
-//	}
-//
-//	public LocalDateTime getTimestamp() {
-//		return timestamp;
-//	}
-//
-//	public void setTimestamp(LocalDateTime timestamp) {
-//		this.timestamp = timestamp;
-//	}
-//
-//	@Override
-//	public String toString() {
-//		return "Chat [id=" + id + ", sender=" + sender + ", receiver=" + receiver + ", message=" + message
-//				+ ", timestamp=" + timestamp + "]";
-//	}
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public User getSender() {
+		return sender;
+	}
+
+	public void setSender(User sender) {
+		this.sender = sender;
+	}
+
+	public User getReceiver() {
+		return receiver;
+	}
+
+	public void setReceiver(User receiver) {
+		this.receiver = receiver;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public LocalDateTime getTimestamp() {
+		return timestamp;
+	}
+
+	public void setTimestamp(LocalDateTime timestamp) {
+		this.timestamp = timestamp;
+	}
+
+	@Override
+	public String toString() {
+		return "Chat [id=" + id + ", sender=" + sender + ", receiver=" + receiver + ", message=" + message
+				+ ", timestamp=" + timestamp + "]";
+	}
 }
 

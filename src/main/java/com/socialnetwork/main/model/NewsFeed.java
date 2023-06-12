@@ -2,12 +2,8 @@ package com.socialnetwork.main.model;
 
 import java.util.Date;
 
-import javax.persistence.*;
 
-import lombok.Getter;
-import lombok.Setter;
-@Setter
-@Getter
+import javax.persistence.*;
 @Entity
 @Table(name = "news_feed")
 public class NewsFeed {
@@ -32,61 +28,61 @@ public class NewsFeed {
     @Column(name = "student_name")
     private String studentName;
 
-//	public Long getId() {
-//		return id;
-//	}
-//
-//	public void setId(Long id) {
-//		this.id = id;
-//	}
-//
-//	public String getTitle() {
-//		return title;
-//	}
-//
-//	public void setTitle(String title) {
-//		this.title = title;
-//	}
-//
-//	public String getContent() {
-//		return content;
-//	}
-//
-//	public void setContent(String content) {
-//		this.content = content;
-//	}
-//
-//	public byte[] getImageData() {
-//		return imageData;
-//	}
-//
-//	public void setImageData(byte[] imageData) {
-//		this.imageData = imageData;
-//	}
-//
-//	public Date getPostedDate() {
-//		return postedDate;
-//	}
-//
-//	public void setPostedDate(Date postedDate) {
-//		this.postedDate = postedDate;
-//	}
-//
-//	public Long getStudentId() {
-//		return studentId;
-//	}
-//
-//	public void setStudentId(Long studentId) {
-//		this.studentId = studentId;
-//	}
-//
-//	public String getStudentName() {
-//		return studentName;
-//	}
-//
-//	public void setStudentName(String studentName) {
-//		this.studentName = studentName;
-//	}
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public byte[] getImageData() {
+		return imageData;
+	}
+
+	public void setImageData(byte[] imageData) {
+		this.imageData = imageData;
+	}
+
+	public Date getPostedDate() {
+		return postedDate;
+	}
+
+	public void setPostedDate(Date postedDate) {
+		this.postedDate = postedDate;
+	}
+
+	public Long getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(Long studentId) {
+		this.studentId = studentId;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
 
 }
 
